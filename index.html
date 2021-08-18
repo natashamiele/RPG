@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Metal+Mania&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+
+    <title>The Master System - O Jogo</title>
+</head>
+
+<body>
+    <h1 class="titulo"> The Master System </h1>
+
+    <div class="intro">
+        <p>No ano de 2097, o mundo encontra-se gerido por um grande sistema quântico capaz de prever todas as ações e
+            respostas dos seres humanos.<br> The Master System, fruto da junção de dados de grandes corporações do
+            início dos anos 2000, criou um mundo "perfeito": elimina possíveis dissidentes ou futuros criminosos, e atua
+            nas relações amorosas evitando conflitos de DNA que possam gerar humanos com deficiências físicas ou pré
+            disposição à doenças congênitas, baseado em machine learning.<br> Mas algumas pessoas começaram a questionar
+            a liberdade...</p>
+    </div>
+
+
+    <div class="container">
+
+        <div class="box-personagem">
+            <h2 class="nome-personagem">Ladrão</h2>
+            <p class="bio-personagem">Uma pessoa sozinha, sem família, sem amigos, com muitos contatos. Não é vista pelo
+                Sistema. Ninguém sabe seu verdadeiro nome ou sua história. Vive de roubos e golpes, é um gatuno
+                escorregadio, ninguém a pega. Sua lealdade é consigo mesma, com seus princípios e com seu conforto -
+                adora uma boa garrafa de Dom Pérignon. Fica sabendo da existência de um artefato ultra poderoso que, uma vez
+                vendido no mercado clandestino, pode dar mais grana do que ela jamais imaginou ter.</p>
+                <img class="foto-personagem" src="ladrao.jpg">
+
+                <button type="button" class="jogar" onclick="escolhaLadrao()">Escolher</button>
+        </div>
+
+
+        <div class="box-personagem">
+            <h2 class="nome-personagem">Grávida</h2>
+            <p class="bio-personagem">Uma mulher que perdeu o homem que amava e que espera um bebê dele. Eva e o companheiro nunca
+                deveriam ter ficado juntos, pois seus DNAs não eram compatíveis. A chance do bebê nascer com
+                predisposição para desenvolver doenças genéticas era de 80% - e o Sistema não aceitava aquilo que eles
+                chamavam de "defeituosos". Pensando na vida que carregava, ela teve que tomar uma decisão insana. Mas para 
+                concretizar seu plano inconsequente, Eva precisa encontrar alguém que a ajude.</p>
+                <img class="foto-personagem" src="gravida.jpg">
+
+                <button type="button" class="jogar" onclick="escolhaGravida()">Escolher</button>
+
+        </div>
+
+
+        <div class="box-personagem">
+            <h2 class="nome-personagem">Hacker</h2>
+            <p class="bio-personagem">Um jovem de 20 anos, filho de um magnata do The Master System, vive no luxo e tem
+                acesso à toda educação que muito dinheiro pode comprar. Noah estudava para ser um dos engenheiros principais do Sistema. 
+                Mas tudo muda na sua vida quando descobre a verdade sobre seu pai e sua família, e passa a questionar sua própria existência. Revoltado com o 
+                Sistema que o pai ajuda a manter vigente, cria um plano (de difícil execução) a fim de evitar que um grande problema aconteça no futuro.
+                </p>
+                <img class="foto-personagem" src="hacker.jpg">
+
+                <button type="button" class="jogar" onclick="escolhaHacker()">Escolher</button>
+
+        </div>
+
+    </div>
+
+
+    
+    <!--<p id="jogar">Jogar</p>!-->
+
+    <!----
+    <footer>
+        <div class="texto-footer">
+            <p>Desenvolvido por Natasha Miele &copy; Todos os direitos reservados</p>
+        </div>
+    </footer>
+!---->
+
+    
+</body>
+
+</html>
