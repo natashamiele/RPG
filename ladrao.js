@@ -1,5 +1,5 @@
 function querSaber() {    //MUDAR NOME DE ACORDO COM A HISTORIA
-    let opcao = prompt(`O que Alex responderá?  1- Sim  2- Não`)
+    let opcao = prompt(`O que Alex responderá?\n  1- Sim\n  2- Não`)
     
     if (opcao == 1){
         return caminhoDoLadrao1()
@@ -22,7 +22,7 @@ function caminhoDoLadrao1() {
 let tituloLadrao = 'Bilhete de Bóris'  
 document.querySelector(`.titulo`).innerHTML = tituloLadrao;
 
-let paragrafoLadrao = 'Assombrada com o que acabara de ouvir, era nítida a confusão em seu rosto.<br> - Viagem no tempo? Não pode ser verdade...<br> A chuva incessante molhava todo o seu corpo esguio, deixando a visão meio turva. Ela foi andando apressadamente enquanto pensava o que seria capaz de fazer uma pessoa viajar no tempo.<br> Foi quando lembrou: o papel com o contato que o contrabandista deu estava no bolso da sua fina jaqueta. Àquela altura já estava todo molhado.<br> - Não acredito que dei esse mole! Como vou ler agora esse borrão? Isso é um 8 ou um 9?<br> Mesmo desconfiada, Alex seguiu a valiosa - e borrada - dica do contrabandista e foi ao encontro da pessoa desconhecida.'
+let paragrafoLadrao = 'Assombrada com o que acabara de ouvir, era nítida a confusão em seu rosto.<br> - Viagem no tempo? Não pode ser verdade...<br><br> A chuva incessante molhava todo o seu corpo esguio, deixando a visão meio turva. Ela foi andando apressadamente enquanto pensava o que seria capaz de fazer uma pessoa viajar no tempo.<br> Foi quando lembrou: o papel com o contato que o contrabandista deu estava no bolso da sua fina jaqueta. Àquela altura já estava todo molhado.<br> - Não acredito que dei esse mole! Como vou ler agora esse borrão? Isso é um 8 ou um 9?<br><br> Mesmo desconfiada, Alex seguiu a valiosa - e borrada - dica do contrabandista e foi ao encontro da pessoa desconhecida.'
 document.querySelector(`.paragrafo`).innerHTML = paragrafoLadrao;
 
 
@@ -53,11 +53,8 @@ function borisAtiraLadrao() {  // função específica para o botão desse game 
 // função acima: primeiro game over do ladrao
 
 
-// tudo acima deu certo. Abaixo é DEU CERTO
-
-
 function ehNum8ouNum9() {  //MUDAR NOME DE ACORDO COM A HISTORIA - 2a fase começa após escolha do prompt abaixo
-    let opcao = prompt(`Alex não consegue ler direito o bilhete que Bóris, o contrabandista, escreveu. Vai ter que arriscar: \n 1- Com certeza isso é o n°8   2- Deve ser o n°9`);
+    let opcao = prompt(`Alex não consegue ler direito o bilhete que Bóris, o contrabandista, escreveu. Vai ter que arriscar:\n 1- Com certeza isso é o n°8\n   2- Deve ser o n°9`);
     
     if (opcao == 1){
         return caminhoDoLadrao3();
@@ -104,7 +101,7 @@ function caminhoDoLadrao4() {
     let tituloLadrao = 'O Hacker'  
         document.querySelector(`.titulo`).innerHTML = tituloLadrao;
         
-    let paragrafoLadrao = '- Quem é você?, pergunta o rapaz à porta.<br> - Alex.<br> Bastava dizer esse nome para saber de quem se tratava. Mesmo sendo a pessoa mais misteriosa do continente, ela era uma pessoa conhecida por todo mundo ligado às "Sombras do Sistema", como costumavam chamar.<br> O rapaz teve um leve sobressalto e tentou conter sua animação para não transparecer suas intenções logo de cara. Alex era exatamente quem ele precisava para dar continuidade ao seu plano.<br> - É, bem que me disseram que o Bóris tem ótimos contatos. Entre antes que essa chuve aumente ainda mais. Prazer, Noah.<br> Na sala pequena e mal iluminada, Noah descreveu o tal artefato: um nanochip criado pela mais avançada A.I. que o mundo já tinha visto. Esse pequeno objeto tecnológico era capaz de mapear todo o espaço-tempo e, usado com o código certo, podia levar qualquer pessoa à qualquer época. O código certo Noah sabia, afinal, ele era ninguém menos que o filho de um dos fundadores do Sistema. Noah havia sido treinado a vida toda para para ser um dos engenheiro principais do Master System.<br> - E qual é o seu interesse pessoal em obter esse nanochip, Noah?<br> - Bom... se vamos trabalhar juntos, precisamos ser transparentes um com o outro, né? Eu preciso voltar no tempo e impedir a construção do Master System.<br> Incrédula com essa resposta, Alex diz:<br> - Noah... Você sabe quem eu sou, certo? Por que eu te ajudaria se no final não vou poder vender o nanochip?<br> - Porque se eu conseguir alcançar meu objetivo, você não vai mais precisar andar pelas Sombras do Sistema, Alex.<br> Isso tocou fundo em Alex. Ela amava sua vida desregrada, era inegável, mas dentro dela havia um medo sempre presente: o de ser pega. É certo que seria bem difícil ser pega, Alex era uma lenda (alguns nem acrediatavm que ela era real). Mas lidando com probabilidades, ela sabia que não era totalmente impossível. Bastaria que algum de seus contatos a traísse e ela demorasse para perceber a armadilha. Ela bem sabia qual era o destino dos chamados Dissidentes do Sistema quando caíam nas mãos dos policiais. E não havia nada nesse mundo que ela prezasse mais do que ela mesma, sua vida e seu bem-estar.<br> - Eu tenho o código. Mas para conseguir completar meu objetivo, eu preciso de você e das suas habilidades para roubar o nanochip, Alex.'
+    let paragrafoLadrao = '- Quem é você?, pergunta o rapaz à porta.<br><br> - Alex.<br><br> Bastava dizer esse nome para saber de quem se tratava. Mesmo sendo a ladra (ou ladrão?) mais misteriosa do continente, ela era uma pessoa conhecida por todo mundo ligado às "Sombras do Sistema", como costumavam chamar.<br> Quem era Alex? Homem, mulher, um mito? Muitos nem acreditavam que ela existia.<br><br> O rapaz teve um leve sobressalto e tentou conter sua animação para não transparecer suas intenções logo de cara. Alex era exatamente quem ele precisava para dar continuidade ao seu plano.<br><br> - É, bem que me disseram que o Bóris tem ótimos contatos. Entre antes que essa chuve aumente ainda mais. Prazer, Noah.<br><br> Na sala pequena e mal iluminada, Noah descreveu o tal artefato: um nanochip criado pela mais avançada A.I. que o mundo já tinha visto. Esse pequeno objeto tecnológico era capaz de mapear todo o espaço-tempo e, usado com o código certo, podia levar qualquer pessoa à qualquer época. Era isso que o Master System usava para "corrigir erros" (o que significava matar pessoas, geralmente).<br><br> O código certo Noah sabia, afinal, ele era ninguém menos que o filho de um dos fundadores do Sistema. Noah havia sido treinado a vida toda para para ser um dos engenheiro principais do Master System.<br><br> - E qual é o seu interesse pessoal em obter esse nanochip, Noah?<br><br> - Bom... se vamos trabalhar juntos, precisamos ser transparentes um com o outro, né? Eu preciso voltar no tempo e impedir a construção do Master System.<br><br> Incrédula com essa resposta, Alex diz:<br> - Noah... Você sabe quem eu sou, certo? Por que eu te ajudaria se no final não vou poder vender o nanochip?<br><br> - Porque se eu conseguir alcançar meu objetivo, você não vai mais precisar andar pelas Sombras do Sistema, Alex.<br> Isso tocou fundo em Alex. Ela amava sua vida desregrada, era inegável, mas dentro dela havia um medo sempre presente: o de ser pega. É certo que seria bem difícil ser pega, Alex era uma lenda viva. Mas lidando com probabilidades, ela sabia que não era totalmente impossível. Bastaria que algum de seus contatos a traísse e ela demorasse para perceber a armadilha.<br> Ela bem sabia qual era o destino dos chamados Dissidentes do Sistema quando caíam nas mãos dos policiais. E não havia nada nesse mundo que ela prezasse mais do que ela mesma, sua vida e seu bem-estar.<br><br> - Eu tenho o código. Mas para conseguir completar meu objetivo, eu preciso de você e das suas habilidades para roubar o nanochip, Alex.'
         
     document.querySelector(`.paragrafo`).innerHTML = paragrafoLadrao;
         
@@ -116,7 +113,7 @@ function caminhoDoLadrao4() {
 
 
 function ajudarOhacker() {    //MUDAR NOME DE ACORDO COM A HISTORIA -  3a fase começa após escolha do prompt abaixo
-    let opcao = prompt(`Alex vai ajudar Noah?  1- Sim  2- Não`)
+    let opcao = prompt(`Alex vai ajudar Noah?\n  1- Sim\n  2- Não`)
         
     if (opcao == 1){
         return caminhoDoLadrao5()
@@ -140,7 +137,7 @@ function caminhoDoLadrao5() {
     let tituloLadrao = 'O Prédio do Master System'  
     document.querySelector(`.titulo`).innerHTML = tituloLadrao;
             
-    let paragrafoLadrao = 'Entrar no prédio principal do Master System não foi nehuma dificuldade para Alex. Com o mapa que Noah fez, ficou ainda mais fácil marcar todas as possíveis entradas e saídas.<br> A localização exata do nanochip ficava na sala n°10100, atrás uma parede falsa coberta com um quadro enorme com uma foto do Rio Amazonas. Alex achou ridículo e riu.<br> Saiu do prédio tão rápido quanto entrou. Só quando já estava em seu bunker-loft, parou e finalmente olhou para o nanochip que tirou do bolso. Tão pequeno, tão frágil e tão importante, dentro de um recipiente de vidro. Como um mundo (literalmente um mundo) podia caber ali dentro?<br> Seus demônios pessoais começaram a aparecer. Olhou ao redor e no seu loft viu tudo o que mais gostava: objetos de arte raríssimos, jóias antiquíssimas, as melhores bebidas que só se podia encontrar no mercado clandestino, e um espelho de cristal com moldura de ouro, refletindo a imagem da pessoa que ela mais amava, ela mesma, segurando o nanochip.<br> Aquele coisa ridiculamente pequena na mão dela era o passaporte para uma vida mais tranquila, sem precisar roubar mais nada.<br> - Se eu entregar esse chip para Noah, nunca verei a bolada de dinheiro. Por outro lado, se eu entregar, talvez eu não precise mais fugir e vou poder ser quem eu quiser, sem me preocupar.'
+    let paragrafoLadrao = 'Entrar no prédio principal do Master System não foi nehuma dificuldade para Alex. Com o mapa que Noah fez, ficou ainda mais fácil marcar todas as possíveis entradas e saídas.<br><br> A localização exata do nanochip ficava na sala n°10100, atrás uma parede falsa coberta com um quadro enorme com uma foto do Rio Amazonas. Alex achou ridículo e riu.<br><br> Saiu do prédio tão rápido quanto entrou. Só quando já estava em seu bunker-loft, parou e finalmente olhou para o nanochip que tirou do bolso. Tão pequeno, tão frágil e tão importante, dentro de um recipiente de vidro. Como um mundo (literalmente um mundo) podia caber ali dentro?<br><br> Seus demônios pessoais começaram a aparecer. Olhou ao redor e no seu loft viu tudo o que mais gostava: objetos de arte raríssimos, jóias antiquíssimas, as melhores bebidas que só se podia encontrar no mercado clandestino, e um espelho de cristal com moldura de ouro, refletindo a imagem da pessoa que ela mais amava, ela mesma, segurando o nanochip.<br><br> Aquele coisa ridiculamente pequena na mão dela era o passaporte para uma vida mais tranquila, sem precisar roubar mais nada.<br> - Se eu entregar esse chip para Noah, nunca verei a montanha de dinheiro que essa belezinha aqui pode me gerar. Por outro lado, se eu entregar, talvez eu não precise mais fugir... Talvez eu possa ser quem eu quiser, sem me preocupar em ser caçada.'
     document.querySelector(`.paragrafo`).innerHTML = paragrafoLadrao;
             
             
@@ -154,7 +151,7 @@ function caminhoDoLadrao5() {
         let tituloLadrao = 'GAME OVER'  
         document.querySelector(`.titulo`).innerHTML = tituloLadrao;
                 
-        let paragrafoLadrao = 'Agora que Alex sabia de tudo e negou ajuda, e sabendo que Alex era o melhor ladrão da história e não iria deixar uma boa oportunidade passar, Noah teve que recorrer ao seu plano B: matar Alex com um tiro.<br> Mesmo não sendo um assassino e odiando sua decisão, para Noah era melhor ter o nanochip num lugar conhecido para poder tentar um novo plano, do que correr o risco de perder seu paradeiro no mercado clandestino.'
+        let paragrafoLadrao = 'Agora que Alex sabia de tudo e negou ajuda, e sabendo que Alex era o melhor ladrão da história e não iria deixar uma boa oportunidade passar, Noah teve que recorrer ao seu plano B: matar Alex com um tiro.<br><br> Mesmo não sendo um assassino e odiando sua decisão, para Noah era melhor ter o nanochip num lugar conhecido para poder tentar um novo plano, do que correr o risco de perder seu paradeiro no mercado clandestino.<br><br> - Meu Deus, eu me tornei meu pai...'
         document.querySelector(`.paragrafo`).innerHTML = paragrafoLadrao;
                 
         document.querySelector(`#botao`).onclick = noahAtiraLadrao;
@@ -173,7 +170,7 @@ function caminhoDoLadrao5() {
 
 
 function entregaOuNaoOchip() {    //MUDAR NOME DE ACORDO COM A HISTORIA - 4a fase começa após escolha do prompt abaixo
-    let opcao = prompt(`O que Alex faz?\n 1- Entrega o nanochip a Noah  2- Vende o nanochip no mercado clandestino`)
+    let opcao = prompt(`O que Alex faz?\n 1- Entrega o nanochip a Noah\n  2- Vende o nanochip no mercado clandestino`)
     
     if (opcao == 1){
         return caminhoDoLadrao7()
@@ -199,7 +196,7 @@ function caminhoDoLadrao7() {
     let tituloLadrao = 'YOU WIN'  
         document.querySelector(`.titulo`).innerHTML = tituloLadrao;
         
-    let paragrafoLadrao = 'Noah consegiu voltar no tempo, seu plano deu certo e o Master System nunca existiu.<br> Uma nova linha temporal foi criada. E nela, Alex (que não lembra de nada do mundo que tinha ajudado a destruir) chefia a maior rede de ladões especiaizados em roubo obras de arte.<br> - Bóris... BÓRIS... me traz a Don Pérignon'
+    let paragrafoLadrao = 'Incerta sobre o que poderia acontecer no seu presente com o Master System sendo destruído no passado, Alex se oferece para ir com Noah.<br><br> - Você tem certeza? É literalmente um caminho sem volta. Você vai perder tudo o que tem.<br><br> - É uma chance de fazer um caminho novo... quem sabe.<br><br> O plano dá certo, Noah e Alex voltam a 2074. Tão logo chegam, Alex, ainda tonta, decide ir embora - prefere fazer seu caminho sozinha.<br><br> Noah termina seu plano: destrói a raiz do Sistema, o nanochip e a A.I que constrói o nanochip.<br><br> O Master System nunca existiu.<br><br> Alex... Bom, Alex finalmente é livre para escolher um caminho sem o Sistema caçando-a.<br><br> Ela chefia a maior rede de ladrões especiaizados em roubo obras de arte.<br><br> - Bóris... BÓRIS... me traz a garrafa de Don Pérignon'
     document.querySelector(`.paragrafo`).innerHTML = paragrafoLadrao;
         
 
@@ -221,7 +218,7 @@ function caminhoDoLadrao8() {
     let tituloLadrao = 'GAME OVER'  
         document.querySelector(`.titulo`).innerHTML = tituloLadrao;
             
-    let paragrafoLadrao = 'Noah passou meses atrás de algum rastro de Alex, até que finalmente encontrou uma pista: uma pessoa vendendo um artefato muito valioso, sem mais descrições, no mercado clandestino. Gastou parte de seus bitcoins na compra e através dessa transação conseguiu achar o paradeiro de Alex.<br> Foi ao seu encontro, sacou uma arma e a matou.<br> Fuçou os bolsos do cadáver e berrou com toda a força dos seus pulmões: o nanochip não estava com Alex'
+    let paragrafoLadrao = 'Noah passou meses atrás de algum rastro de Alex, até que finalmente encontrou uma pista: uma pessoa vendendo um artefato muito valioso, sem mais descrições, no mercado clandestino. Gastou os seus milhares bitcoins na compra e através dessa transação conseguiu achar o paradeiro de Alex.<br><br> Foi ao seu encontro, sacou uma arma e a matou.<br><br> Fuçou os bolsos do cadáver e berrou com toda a força dos seus pulmões: o nanochip não estava com Alex'
     document.querySelector(`.paragrafo`).innerHTML = paragrafoLadrao;
             
     document.querySelector(`#botao`).onclick = noahAtiraLadraoDeNovo;
