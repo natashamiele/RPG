@@ -15,7 +15,7 @@ function escolhaGravida() {
 
 
 function escolhaHacker() {
-    return location = (`ladrao.html`) // mudar aqui
+    return location = (`hacker.html`) // mudar aqui
    
 
 }

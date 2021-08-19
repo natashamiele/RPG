@@ -72,15 +72,16 @@ body {
 
 }
 
-/*.texto-footer {
+.texto-footer {
     font-family: 'Goldman', cursive;
     font-size: 20px;
     text-align: center;
     color: black;
     background-color: #dffcf8;
-    margin: auto auto 0;
+    margin: auto 0 0;
+    width: 100%;
 
-} */
+} 
 
 
 

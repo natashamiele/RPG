@@ -1,5 +1,3 @@
-
-
 function querSaber() {    //MUDAR NOME DE ACORDO COM A HISTORIA
     let opcao = prompt(`O que Alex responderá?  1- Sim  2- Não`)
     
@@ -19,8 +17,6 @@ function querSaber() {    //MUDAR NOME DE ACORDO COM A HISTORIA
     }
     }
     
-
-
 function caminhoDoLadrao1() {
 
 let tituloLadrao = 'Bilhete de Bóris'  
@@ -217,7 +213,7 @@ function youWin() {  // função específica para o botão de ganhar o jogo acim
 
     }
 
-// única forma de gangar está na função acima
+// única forma de ganhar está na função acima
         
 
 function caminhoDoLadrao8() {
